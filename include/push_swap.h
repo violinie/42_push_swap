@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   push_swap.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hanacop <hanacop@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/05/06 18:34:17 by hanacop           #+#    #+#             */
+/*   Updated: 2025/05/06 18:34:35 by hanacop          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
@@ -7,12 +19,11 @@
 # include <stdio.h>
 # include "libft.h"
 
-
 typedef struct s_stack
 {
-	int *arr;
-	int size;
-	int top;
+	int	*arr;
+	int	size;
+	int	top;
 }	t_stack;
 
 // parser.c

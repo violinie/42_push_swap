@@ -6,7 +6,7 @@
 /*   By: hanacop <hanacop@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 15:37:29 by hanacop           #+#    #+#             */
-/*   Updated: 2025/05/06 18:19:34 by hanacop          ###   ########.fr       */
+/*   Updated: 2025/05/06 18:36:25 by hanacop          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,5 +65,3 @@ void	rev_rotate(t_stack *s)
 	}
 	s->arr[s->top] = temp_bottom;
 }
-
-

@@ -6,7 +6,7 @@
 /*   By: hanacop <hanacop@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 15:43:33 by hanacop           #+#    #+#             */
-/*   Updated: 2025/04/30 15:48:07 by hanacop          ###   ########.fr       */
+/*   Updated: 2025/05/06 18:35:38 by hanacop          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	is_valid_input(char *s)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (s[i] == '-' || s[i] == '+')
@@ -32,8 +32,8 @@ int	is_valid_input(char *s)
 
 int	check_duplicates(int *arr, int size)
 {
-	int i;
-	int j;
+	int	i;
+	int	j;
 
 	i = 0;
 	while (i < size - 1)
@@ -55,4 +55,3 @@ void	print_error(void)
 	write(2, "Error\n", 6);
 	exit(EXIT_FAILURE);
 }
-
